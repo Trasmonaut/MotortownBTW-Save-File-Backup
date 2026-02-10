@@ -18,7 +18,8 @@ REM Check if the source folder exists
 if not exist "%SOURCE%" (
     echo Source folder not found: "%SOURCE%"
     echo Backup failed. Please ensure MotorTown is installed and has been run at least once.
-    pause
+    echo Press any key to exit...
+    pause >nul
     exit /b 1
 )
 
@@ -36,8 +37,11 @@ xcopy "%SOURCE%" "%TIME_DEST%" /E /H /C /I /Y
 
 if exist "%TIME_DEST%\Characters" (
     echo Backup successful! Files copied to: "%TIME_DEST%"
+
 ) else (
     echo Backup failed. Please check for errors and try again.
-)
+    echo Press any key to exit...
+    pause >nul
+    exit /b 1
 
-pause
+)
