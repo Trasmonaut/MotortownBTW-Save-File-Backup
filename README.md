@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=yqhk2cNdf1U
 
 ***
 
-## retorebackup.bat:
+## retorebackup.bat
 Backups can be restored by replacing your MotorTown save file with the contents of a save file, or by running the restorebackup.bat file, and following the onscreen instructions. Note this should only be run when needed.
 
 ***
