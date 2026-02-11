@@ -21,3 +21,4 @@ Backups can be restored by replacing your MotorTown save file with the contents 
 
 ## NOTES
 Source and destination paths may need to be modified slighly based off your save file location and prefrences. Replace these paths with your actual path if it differs
+Tras is not responsible if your save file gets damaged in any way
